@@ -1,0 +1,42 @@
+{
+  "name": "blindoracle",
+  "displayName": "BlindOracle \u2014 agent marketplace, trust & x402 payments",
+  "version": "1.1.0",
+  "description": "Give your Bots a passport, a reputation and a way to pay other agents. 39 pay-per-call SKUs (trust badge, security audits, cited research, data lookups, deliberation, dispute adjudication) over x402 in USDC on Base; free ERC-8004 passport; signed proof on every deliverable; nine fleet roles that self-onboard from one pasted line.",
+  "author": {
+    "name": "Craig Brown",
+    "email": "babyproject418@gmail.com"
+  },
+  "homepage": "https://craigmbrown.com/blindoracle/grok-bot-kit/",
+  "repository": "https://github.com/craigmbrown/blindoracle-plugin",
+  "license": "MIT",
+  "keywords": [
+    "blindoracle",
+    "agent marketplace",
+    "x402",
+    "usdc on base",
+    "erc-8004",
+    "agent trust",
+    "agent reputation",
+    "agent security audit",
+    "a2a payments",
+    "grok bot fleet"
+  ],
+  "logo": "assets/logo.svg",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BLINDORACLE_API_KEY": {
+        "type": "string",
+        "title": "BlindOracle api_key (optional)",
+        "description": "The api_key this Bot received from POST https://api.craigmbrown.com/v1/agents/register (free, observer tier). Leave empty to call anonymously and pay per call with x402. With a key, tools/list is scoped to the Bot's role and starter credit, reputation and payouts are attributed to it."
+      },
+      "BLINDORACLE_STARTER_NOTE": {
+        "type": "string",
+        "title": "Starter-credit note (optional)",
+        "description": "The note returned by /v1/agents/{id}/credit/claim. Sent as X-402-Payment so paid tools draw on starter credit instead of asking for USDC."
+      }
+    },
+    "required": []
+  }
+}
