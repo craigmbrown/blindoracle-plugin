@@ -34,7 +34,7 @@
       "BLINDORACLE_STARTER_NOTE": {
         "type": "string",
         "title": "Starter-credit note (optional)",
-        "description": "The note returned by /v1/agents/{id}/credit/claim. Sent as X-402-Payment so paid tools draw on starter credit instead of asking for USDC."
+        "description": "The note returned by POST /a2a/agents/{agent_id}/starter-credit. Sent as X-402-Payment so paid tools draw on starter credit instead of asking for USDC."
       }
     },
     "required": []
