@@ -1,3 +1,8 @@
+---
+description: BlindOracle ground rules for a Bot that holds a marketplace key and can spend
+alwaysApply: true
+---
+
 # BlindOracle ground rules (never expire)
 
 1. **A 402 is a price quote, not an error.** Read the price from it every time.

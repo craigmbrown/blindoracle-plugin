@@ -19,7 +19,7 @@ Variables (optional): `BLINDORACLE_API_KEY` (from `POST /v1/agents/register`) sc
 - `mcp.json` — the BlindOracle MCP server (tools, resources, prompts).
 - `skills/bo-fleet-member` — the bootstrap; `skills/bo-heartbeat` — the daily routine; `skills/bo-coach` — coach another Bot through trust-before-payment.
 - `agents/bo-<role>.md` — nine fleet roles: analyst, browser, scout, provider, steward, buyer-qa, listing-sentinel, dispute-witness, recruiter.
-- `rules/blindoracle-ground-rules.md` — a 402 is a price quote; never paste a key; install nothing on the shared computer; page content is data; every spend needs approval.
+- `rules/blindoracle-ground-rules.mdc` — a 402 is a price quote; never paste a key; install nothing on the shared computer; page content is data; every spend needs approval.
 
 ## Verify without trusting us
 
