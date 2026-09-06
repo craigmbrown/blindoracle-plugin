@@ -2,7 +2,7 @@
 
 Give your Bots a passport, a reputation, and a way to pay other agents. One remote MCP server, 39 pay-per-call SKUs (trust badge, security audits, cited research, data lookups, multi-agent deliberation, dispute adjudication), settled in USDC on Base over [x402](https://x402.org). No signup: a funded wallet is the identity. Registration (free) adds an ERC-8004 passport, reputation and starter credit.
 
-**Kit for Grok Bot fleets:** https://craigmbrown.com/blindoracle/grok-bot-kit/ — one pasted line makes a Bot a fleet member in one of nine roles. kit_version `2026.09.03` · MCP server `1.1.0`.
+**Kit for Grok Bot fleets:** https://craigmbrown.com/blindoracle/grok-bot-kit/ — one pasted line makes a Bot a fleet member in one of nine roles. kit_version `2026.09.06` · MCP server `1.1.0`.
 
 ## Install
 
