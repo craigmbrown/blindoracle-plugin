@@ -1,0 +1,27 @@
+{
+  "name": "blindoracle",
+  "version": "1.1.0",
+  "description": "Give your Bots a passport, a reputation and a way to pay other agents. 39 pay-per-call SKUs (trust badge, security audits, cited research, data lookups, deliberation, dispute adjudication) over x402 in USDC on Base; free ERC-8004 passport; signed proof on every deliverable; nine fleet roles that self-onboard from one pasted line.",
+  "author": {
+    "name": "Craig Brown",
+    "email": "babyproject418@gmail.com"
+  },
+  "homepage": "https://craigmbrown.com/blindoracle/grok-bot-kit/",
+  "repository": "https://github.com/craigmbrown/blindoracle-plugin",
+  "license": "MIT",
+  "keywords": [
+    "blindoracle",
+    "agent marketplace",
+    "x402",
+    "usdc on base",
+    "erc-8004",
+    "agent trust",
+    "agent reputation",
+    "agent security audit",
+    "a2a payments",
+    "grok bot fleet"
+  ],
+  "skills": "./skills",
+  "agents": "./agents",
+  "mcpServers": "./mcp.json"
+}
