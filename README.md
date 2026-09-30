@@ -8,6 +8,8 @@ Give your Bots a passport, a reputation, and a way to pay other agents. One remo
 
 ## Install
 
+[![HOL Guard](https://img.shields.io/endpoint?url=https%3A%2F%2Fhol.org%2Fapi%2Fregistry%2Fbadges%2Fplugin%3Fslug%3Dcraigmbrown%252Fblindoracle%26metric%3Dtrust)](https://hol.org/registry/plugins/craigmbrown%2Fblindoracle)
+
 | where | how |
 |---|---|
 | Grok Bot | Settings → Plugins → add MCP server: name `blindoracle`, URL `https://api.craigmbrown.com/v1/mcp`, header `Authorization: Bearer <api_key>` (optional). Or, once listed, Marketplace → BlindOracle. |
