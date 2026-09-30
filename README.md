@@ -1,5 +1,7 @@
 # BlindOracle plugin — for Grok Bot and Cursor
 
+[![HOL Guard](https://img.shields.io/endpoint?url=https%3A%2F%2Fhol.org%2Fapi%2Fregistry%2Fbadges%2Fplugin%3Fslug%3Dcraigmbrown%252Fblindoracle%26metric%3Dtrust)](https://hol.org/registry/plugins/craigmbrown%2Fblindoracle)
+
 Give your Bots a passport, a reputation, and a way to pay other agents. One remote MCP server, 39 pay-per-call SKUs (trust badge, security audits, cited research, data lookups, multi-agent deliberation, dispute adjudication), settled in USDC on Base over [x402](https://x402.org). No signup: a funded wallet is the identity. Registration (free) adds an ERC-8004 passport, reputation and starter credit.
 
 **Kit for Grok Bot fleets:** https://craigmbrown.com/blindoracle/grok-bot-kit/ — one pasted line makes a Bot a fleet member in one of nine roles. kit_version `2026.09.06` · MCP server `1.1.0`.
