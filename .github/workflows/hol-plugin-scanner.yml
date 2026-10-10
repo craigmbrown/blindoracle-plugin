@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: HOL plugin scanner
-        uses: hashgraph-online/ai-plugin-scanner-action@caba2e96aa8ad2feb6cf6fca52442b52e22e779f # v1.2.635
+        uses: hashgraph-online/ai-plugin-scanner-action@d6f2a2d075b68d828ef9d71fdde6854be8f97211 # v1.2.772
         with:
           path: .
           min_score: 80
